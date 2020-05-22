@@ -128,7 +128,7 @@ define(function(require, exports, module) {
                         "transform_symlinks", 
                         "StrictHostKeyChecking=no",
                         // Experiment to address SSHFS disconnect issue
-                        // See https://github.com/c9/newclient/issues/4752#issuecomment-59135843
+                        // See https://github.com/c9open/newclient/issues/4752#issuecomment-59135843
                         "reconnect",
                         "workaround=all"
                     ]; //"direct_io" "allow_other", 
